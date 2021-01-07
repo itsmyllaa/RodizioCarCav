@@ -9,6 +9,7 @@ class RodCarCav {
     for (int i = 0; i < n; i++) {
        string placa = Console.ReadLine();
        if (placa.Length != 8) {
+           
            saida[i] = "FALHA";
        }
 
